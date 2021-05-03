@@ -1,0 +1,12 @@
+{
+  "data_folder": "data",
+  "output_folder": "output/test",
+  "n_mid": 100,
+  "wb_width": 0.01,
+  "eta": 0.001,
+  "batch_size": 100,
+  "dropout_rate": 0.5,
+  "normalisation": "Min-Max",
+  "num_epoch": 100,
+  "interval": 1
+}

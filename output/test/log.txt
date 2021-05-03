@@ -1,0 +1,54 @@
+[args]
+batch_size=100, data_folder='data', dropout_rate=0.5, eta=0.001, interval=1, n_mid=100, normalisation='Min-Max', num_epoch=100, output_folder='output/test', wb_width=0.01
+
+[shape of data]
+X_train: (60000, 784)
+y_train: (60000,)
+X_test: (10000, 784)
+y_test: (10000,)
+
+[target]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+compiling model...
+training model...
+[Epoch]: 0/100==================================================
+Train loss: 0.779 | Test loss: 0.776 | train_time:0.09 min | eval_time: 0.0219 min | Train accuracy: 0.422 |Test accuracy: 0.419
+>> total time use: 0.16 min | speed: 0.16  min/epoch | estimated_time: 16 min
+
+[Epoch]: 1/100==================================================
+Train loss: 0.828 | Test loss: 0.828 | train_time:0.11 min | eval_time: 0.0221 min | Train accuracy: 0.528 |Test accuracy: 0.526
+>> total time use: 0.3 min | speed: 0.15  min/epoch | estimated_time: 15 min
+
+[Epoch]: 2/100==================================================
+Train loss: 0.731 | Test loss: 0.727 | train_time:0.17 min | eval_time: 0.024 min | Train accuracy: 0.565 |Test accuracy: 0.56
+>> total time use: 0.49 min | speed: 0.16  min/epoch | estimated_time: 16 min
+
+[Epoch]: 3/100==================================================
+Train loss: 0.67 | Test loss: 0.674 | train_time:0.13 min | eval_time: 0.0201 min | Train accuracy: 0.591 |Test accuracy: 0.585
+>> total time use: 0.66 min | speed: 0.17  min/epoch | estimated_time: 16 min
+
+[Epoch]: 4/100==================================================
+Train loss: 0.608 | Test loss: 0.622 | train_time:0.15 min | eval_time: 0.0176 min | Train accuracy: 0.603 |Test accuracy: 0.6
+>> total time use: 0.83 min | speed: 0.17  min/epoch | estimated_time: 16 min
+
+[Epoch]: 5/100==================================================
+Train loss: 0.599 | Test loss: 0.614 | train_time:0.15 min | eval_time: 0.0211 min | Train accuracy: 0.605 |Test accuracy: 0.599
+>> total time use: 1.01 min | speed: 0.17  min/epoch | estimated_time: 16 min
+
+[Epoch]: 6/100==================================================
+Train loss: 0.54 | Test loss: 0.537 | train_time:0.14 min | eval_time: 0.0231 min | Train accuracy: 0.627 |Test accuracy: 0.624
+>> total time use: 1.18 min | speed: 0.17  min/epoch | estimated_time: 16 min
+
+[Epoch]: 7/100==================================================
+Train loss: 0.554 | Test loss: 0.548 | train_time:0.1 min | eval_time: 0.017 min | Train accuracy: 0.633 |Test accuracy: 0.633
+>> total time use: 1.34 min | speed: 0.17  min/epoch | estimated_time: 16 min
+
+[Epoch]: 8/100==================================================
+Train loss: 0.554 | Test loss: 0.547 | train_time:0.08 min | eval_time: 0.0208 min | Train accuracy: 0.629 |Test accuracy: 0.626
+>> total time use: 1.44 min | speed: 0.16  min/epoch | estimated_time: 15 min
+
+[Epoch]: 9/100==================================================
+Train loss: 0.577 | Test loss: 0.568 | train_time:0.14 min | eval_time: 0.0137 min | Train accuracy: 0.633 |Test accuracy: 0.632
+>> total time use: 1.6 min | speed: 0.16  min/epoch | estimated_time: 15 min
+
